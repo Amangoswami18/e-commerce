@@ -23,4 +23,14 @@ Users can browse products, filter by categories, view product details, and manag
 - **State Management:** React Context API  
 - **API:** Axios for fetching products from Fake Store API  
 - **Routing:** React Router DOM  
-- **Styling:** Bootstrap 5  
+- **Styling:** Bootstrap 5
+
+- ## Setup & Run
+
+ **Clone the repository**  
+   ```bash
+   git clone https://github.com/Amangoswami18/e-commerce.git
+   cd e-commerce
+
+## ShopEase is a simple e-commerce web app built with React and React Context API. It provides a basic shopping experience with product listing, filtering, product details, and cart management.
+Thank You....
