@@ -8,7 +8,6 @@ describe("Home Page Tests", () => {
   });
 
   it("Filters products", () => {
-    // Wait until select appears (max 10 seconds)
     cy.get("select", { timeout: 10000 }).should("be.visible");
 
     // Select men's clothing

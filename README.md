@@ -24,3 +24,12 @@ Users can browse products, filter by categories, view product details, and manag
 - **API:** Axios for fetching products from Fake Store API  
 - **Routing:** React Router DOM  
 - **Styling:** Bootstrap 5  
+
+
+## Setup
+1. Clone repository:
+   git clone https://github.com/Amangoswami18/e-commerce.git
+2. Install dependencies:
+   npm install
+3. Run app:
+   npm start

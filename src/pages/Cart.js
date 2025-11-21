@@ -18,7 +18,7 @@ const Cart = () => {
 
   if (cart.cartItems.length === 0)
     return (
-      <div className="text-center mt-5">
+      <div className="text-center mt-5 pt-5">
         <h3>Your cart is empty</h3>
         <p>Add some products to get started</p>
         <button className="btn btn-outline-primary mt-3" onClick={handleBack}>
@@ -28,8 +28,11 @@ const Cart = () => {
     );
 
   return (
-    <div className="container mt-4">
-      <button className="btn btn-outline-secondary mb-3" onClick={handleBack}>
+    <div className="container mt-5 pt-3">
+      <button
+        className="btn btn-outline-secondary mb-3"
+        onClick={handleBack}
+      >
         ← Back to Shop
       </button>
 
